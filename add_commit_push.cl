@@ -10,3 +10,7 @@ Created script
 ## [0.02] - 2020-02-04
 ### Added
 - Available branches to push to are now listed 
+
+## [0.03] - 2020-02-26
+## Changed
+- Script will now ask specifically what you want to add instead of adding all

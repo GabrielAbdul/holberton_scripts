@@ -6,8 +6,9 @@
 # ver 0.02
 # Author Gabriel Abdul-Raheem
 ############################################
-
-git add -A
+echo "what would you like to add?"
+read adding
+git add $adding
 echo "Enter in commit message: "
 read commitMessage
 git commit -m "$commitMessage"
