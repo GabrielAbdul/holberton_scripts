@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Enter directory to copy from: "
+read dir
+echo "Enter destination directory: "
+read destDir
+echo "Enter number of files to copy: "
+read count
+let counter="$count"
+while :
+do
+	echo "Enter file name: "
+	read fileName
+	cp $dir/$fileName $destDir/$fileName
+	let counter=$(( counter - 1 ))	
+	if [ $counter == 0 ]
+	then
+		break
+	fi
+done
